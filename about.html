@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/client-style.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - PT. BMM</title>
+  </head>
+
+  <body>
+    <div class="navbar-fixed">
+      <nav class="nav-client nontrans">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">BMM</a>
+            <a href="#" data-target="mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down nav-link">
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="product.html">Produk</a></li>
+              <li><a href="information.html">Informasi</a></li>
+              <li><a href="about.html">Tentang</a></li>
+              <li><a href="#kontak">Kontak</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile">
+      <div class="nav-mob nontrans white-text">
+        <li class="center"><h5>PT.</h5></li>
+        <li class="center"><h5>Bogor Mitra Makmur</h5></li>
+      </div>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="product.html">Produk</a></li>
+      <li><a href="information.html">Informasi</a></li>
+      <li><a href="about.html">Tentang</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+
+    <div class="container center starts">
+      <h5><span class="mitra-bot">Tentang Kami</span></h5>
+      <img class="materialboxed responsive-img about-img" width="650" src="img/perusahaan-bmm1.jpg" />
+      <p class="justify-align">
+        PT. Bogor Mitra Makmur adalah sebuah perusahan industri yang saat ini memproduksi sebuah Helm untuk berkendara . Nama Bogor Mitra Makmur itu sendiri tercipta tahun 2017 yang sebelumnya bernama CV Darfent Jaya . Setiap harinya
+        perusahaan kami membuat ratusan helm dengan berbagai bentuk dan motif . saat ini brand yang memproduksi helm diperusahaan ini yaitu MAZ dan ASCA . 2 Brand yang sudah dikenal memiliki helm yang berkualitas baik dan juga motif yang
+        bergaya.
+      </p>
+      <p class="justify-align">
+        Proses kegiatan yang dilakukan diperusahaan kami terdiri dari beberapa bagian yaitu: Sewing , Painting , Decal, dan Assembling . Yang mana setiap proses bagian dikerjakan dengan baik dan teliti oleh orang yang mahir dalam bidang
+        tersebut sehingga menciptakan helm yang berkualitas tinggi. Kami berkomitmen tinggi dalam menghasilkan sebuah produk yang baik hingga sampai ke tangan konsumen
+      </p>
+    </div>
+
+    <footer class="footer grey darken-4" id="kontak">
+      <div class="row white-text">
+        <div class="col m7 s12">
+          <h5>PT. BOGOR MITRA MAKMUR</h5>
+          <p><i class="tiny material-icons black-text">location_on</i> <span class="icon-desc"></span> JL. Warung Borong RT. 05/02, Bojong Rangkas - Ciampea - Bogor - Jawa Barat, Indonesia</p>
+        </div>
+        <div class="col m5 s12">
+          <h5>Hubungi kami</h5>
+          <p><i class="tiny material-icons black-text">call</i> <span class="icon-desc"> Telp : 0251-8425553</span></p>
+          <p>
+            <i class="tiny material-icons black-text">email</i> <span class="icon-desc"> Email : <a href="mailto:bogormitramakmur@gmail.com">bogormitramakmur@gmail.com</a></span>
+          </p>
+          <p><i class="tiny material-icons black-text">local_printshop</i> <span class="icon-desc"> Fax : 0251-8622076</span></p>
+        </div>
+      </div>
+      <p class="center white-text">&copy;Copyright 2021 PT. BOGOR MITRA MAKMUR, All rights reserved.</p>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+      $(window).on("load", function () {
+        $(".starts").addClass("appears");
+      });
+
+      $(window).scroll(function () {
+        var wScroll = $(this).scrollTop();
+        if (wScroll > $(".client").offset().top - 100) {
+          $(".nav-client").removeClass("trans");
+        } else {
+          $(".nav-client").addClass("trans");
+        }
+        if (wScroll > $(".kiriHilang").offset().top - 400) {
+          $(".kiriHilang").addClass("muncul");
+        }
+        if (wScroll > $(".kananHilang").offset().top - 400) {
+          $(".kananHilang").addClass("muncul");
+        }
+      });
+    </script>
+
+    <script>
+      $(window).scroll(function () {
+        var wScroll = $(this).scrollTop();
+        if (wScroll > $(".hilang").offset().top - 400) {
+          $(".hilang").addClass("adain");
+        }
+      });
+    </script>
+  </body>
+</html>
