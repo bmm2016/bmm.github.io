@@ -241,10 +241,11 @@ footer i {
   }
   .card-content .time-info {
     font-size: 12px !important;
+    margin-left: -20px !important;
   }
   .card-action .information-link {
-    font-size: 12px !important;
-    margin-left: -30px !important;
+    font-size: 11px !important;
+    margin-left: -25px !important;
   }
   .sub-jumbotron {
     font-size: 20px !important;
