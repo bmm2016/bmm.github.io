@@ -1,236 +1,256 @@
 @font-face {
-	font-family: "muli";
-	src: url("../font/Muli.ttf") format("truetype");
+  font-family: "muli";
+  src: url("../font/Muli.ttf") format("truetype");
 }
 
 body {
-	font-family: "muli", sans-serif;
+  font-family: "muli", sans-serif;
 }
 section {
-	margin: 80px auto;
+  margin: 80px auto;
 }
 /* client header */
 .hilang {
-	opacity: 0;
-	transform: translate(50px, 0);
-	transition: 1s;
+  opacity: 0;
+  transform: translate(50px, 0);
+  transition: 1s;
 }
 .kiriHilang {
-	opacity: 0;
-	transform: translate(-50px, 0);
-	transition: 1s;
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1s;
 }
 .kananHilang {
-	opacity: 0;
-	transform: translate(50px, 0);
-	transition: 1s;
+  opacity: 0;
+  transform: translate(50px, 0);
+  transition: 1s;
 }
 .muncul {
-	opacity: 1 !important;
-	transform: translate(0, 0) !important;
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 .hilang {
-	opacity: 0;
-	transform: translate(0, -50px);
-	transition: 1s;
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 1s;
 }
 .adain {
-	opacity: 1 !important;
-	transform: translate(0, 0) !important;
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 .starts {
-	opacity: 0;
-	transform: translate(0, -50px);
-	transition: 1s;
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 1s;
 }
 nav li a {
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1) !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1) !important;
 }
 .appears {
-	opacity: 1 !important;
-	transform: translate(0, 0) !important;
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 .nontrans {
-	background-color: #0d47a1 !important;
+  background-color: #0d47a1 !important;
 }
 .trans {
-	background-color: rgba(0, 0, 0, 0) !important;
-	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
-	color: black !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0) !important;
+  color: black !important;
 }
 .nav-link li {
-	margin: auto 25px;
+  margin: auto 25px;
 }
 nav ul a:hover {
-	background-color: rgba(0, 0, 0, 0) !important;
-	opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0) !important;
+  opacity: 0.8;
 }
 .slide-img {
-	width: 150px !important;
+  width: 150px !important;
 }
 .nav-link li:hover::after {
-	content: "";
-	display: block;
-	border-bottom: 3px solid rgb(71, 71, 255);
-	width: 60%;
-	margin: auto;
-	margin-top: -15px;
+  content: "";
+  display: block;
+  border-bottom: 3px solid rgb(71, 71, 255);
+  width: 60%;
+  margin: auto;
+  margin-top: -15px;
 }
 .nav-mob {
-	padding: 20px;
-	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
 }
 /* client header End */
 /* Client Index */
 .jumbotron {
-	height: 500px;
-	margin-top: -90px;
+  height: 500px;
+  margin-top: -90px;
 }
 .service .line-bot {
-	border-bottom: 2px solid rgba(76, 76, 209, 0.8);
-	padding-bottom: 5px;
+  border-bottom: 2px solid rgba(76, 76, 209, 0.8);
+  padding-bottom: 5px;
 }
 .service .content-service {
-	margin: auto 40px;
-	margin-top: 85px !important;
-	background-color: #90caf9;
-	padding: 50px;
-	border-radius: 10px;
-	box-sizing: border-box !important;
+  margin: auto 40px;
+  margin-top: 85px !important;
+  background-color: #90caf9;
+  padding: 50px;
+  border-radius: 10px;
+  box-sizing: border-box !important;
 }
 .service .divider {
-	margin: auto 12% !important;
-	margin-top: 50px !important;
+  margin: auto 12% !important;
+  margin-top: 50px !important;
 }
 .service .content-text {
-	background-color: white;
-	padding: 60px;
-	border-top-left-radius: 30px;
-	border-top-right-radius: 30px;
-	border-bottom-right-radius: 30px;
-	border-bottom-left-radius: 0px;
+  background-color: white;
+  padding: 60px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 0px;
 }
 .service .right-part {
-	margin-top: 20px !important;
+  margin-top: 20px !important;
 }
 .justify {
-	text-align: center;
+  text-align: center;
 }
 .justify-align {
-	text-align: justify;
-	text-indent: 10%;
+  text-align: justify;
+  text-indent: 10%;
 }
 .service .content-lefts {
-	border-bottom-left-radius: 30px !important;
-	border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 30px !important;
+  border-bottom-right-radius: 0px !important;
 }
 .content-img {
-	width: 100%;
+  width: 100%;
 }
 .parallax-container {
-	height: 20%;
+  height: 20%;
 }
 .mitra-bot {
-	line-height: 120px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  line-height: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .nav-det {
-	margin-bottom: 80px !important;
+  margin-bottom: 80px !important;
 }
 .judul-det {
-	line-height: normal !important;
+  line-height: normal !important;
 }
 .parallax .par-img {
-	opacity: 0.7 !important;
+  opacity: 0.7 !important;
 }
 .img-para {
-	filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.5)) !important;
+  filter: drop-shadow(2px 3px 2px rgba(0, 0, 0, 0.5)) !important;
 }
 .img-para1 {
-	filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.9)) !important;
+  filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.9)) !important;
 }
 .mitra-bot::after {
-	content: "";
-	display: block;
-	border-bottom: 3px solid rgba(76, 76, 209, 0.7) !important;
-	margin: auto;
-	margin-top: 1px;
-	margin-bottom: 50px;
-	width: 90px;
+  content: "";
+  display: block;
+  border-bottom: 3px solid rgba(76, 76, 209, 0.7) !important;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  width: 90px;
 }
 /* Client Index End *
 /* Client About */
 .about-img {
-	margin: 50px auto !important;
+  margin: 50px auto !important;
 }
 /* Client About End */
 /* Client Product */
 .product-content img {
-	margin-top: 20px !important;
+  margin-top: 20px !important;
 }
 .slides h3,
 .slides h5 {
-	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 .product-content {
-	margin-top: -20px !important;
+  margin-top: -20px !important;
 }
 /* Client Product End */
 /* Client Footer */
 footer {
-	padding: 30px !important;
-	margin-top: 200px !important;
+  padding: 30px !important;
+  margin-top: 200px !important;
 }
 footer i {
-	padding: 3px;
-	background-color: white;
-	border-radius: 50%;
+  padding: 3px;
+  background-color: white;
+  border-radius: 50%;
 }
 
 /* Client Footer End */
 
 /* Client Information */
 .information-link {
-	text-transform: capitalize !important;
+  text-transform: capitalize !important;
 }
 
 .admin-list {
-	width: 100px !important;
-	border-radius: 10px !important;
-	text-indent: 0% !important;
+  width: 100px !important;
+  border-radius: 10px !important;
+  text-indent: 0% !important;
 }
 .card-stacked,
 .isi-utama {
-	word-wrap: break-word !important;
-	overflow: auto !important;
+  word-wrap: break-word !important;
+  overflow: auto !important;
 }
 .card-content {
-	text-align: left !important;
+  text-align: left !important;
 }
 
 .content-isi,
 .isi-utama {
-	word-wrap: break-word !important;
+  word-wrap: break-word !important;
 }
 .detail-align {
-	text-align: justify;
-	text-indent: 10%;
+  text-align: justify;
+  text-indent: 10%;
 }
 .time-info {
-	text-indent: 10%;
-	color: rgb(116, 116, 116);
-	margin-top: 50px !important;
+  text-indent: 10%;
+  color: rgb(116, 116, 116);
+  margin-top: 50px !important;
 }
 .time-detail {
-	color: rgb(116, 116, 116);
-	margin-bottom: 40px;
-	margin-top: -25px;
-	margin-left: -50px;
+  color: rgb(116, 116, 116);
+  margin-bottom: 40px;
+  margin-top: -25px;
+  margin-left: -50px;
 }
 /* Client Information End */
 @media (max-width: 600px) {
-	.service .content-lefts,
-	.service .content-rights {
-		margin-top: 20px;
-	}
+  .service .content-lefts,
+  .service .content-rights {
+    margin-top: 20px;
+  }
+  .service .content-text {
+    padding: 5px !important;
+  }
+  .card-content .header {
+    font-size: 14px !important;
+  }
+  .card-content .time-info {
+    font-size: 12px !important;
+  }
+  .card-action .information-link {
+    font-size: 12px !important;
+    margin-left: -30px !important;
+  }
+  .sub-jumbotron {
+    font-size: 20px !important;
+    margin-top: -5px !important;
+  }
+  .caption h3 {
+    font-size: 30px !important;
+  }
 }
